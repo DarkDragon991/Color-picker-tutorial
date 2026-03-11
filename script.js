@@ -1,5 +1,6 @@
 document.getElementById('colorInput').addEventListener('input', function() {
      const color = this.value;
+     document.body.style.backgroundColor = color;
      document.getElementById('hexValue').textContent = color;
      document.getElementById('rgbValue').textContent = hexToRgb(color);
  });
@@ -9,3 +10,4 @@ document.getElementById('colorInput').addEventListener('input', function() {
      const b = parseInt(hex.slice(5, 7), 16);
      return `rgb(${r}, ${g}, ${b})`;
  }
+ .document.getElementById('color-info-item').addEventListener('click', funktion)

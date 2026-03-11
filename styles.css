@@ -1,5 +1,5 @@
 body {
-    .transition
+    transition: background-color 1s;
      font-family: Arial, sans-serif;
      display: flex;
      justify-content: center;
@@ -21,6 +21,15 @@ body {
      margin-top: 20px;
  }
 
+ .color-info-item {
+  display: flex;
+}
+
+.color-info-item button {
+
+    margin-left: 20px;
+
+}
 p {
      margin: 5px 0;
      font-size: 16px;
